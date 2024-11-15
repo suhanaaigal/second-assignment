@@ -1,0 +1,243 @@
+[
+  { 
+    "id": 1, 
+    "name": "Chocolate Delight", 
+    "flavor": "Chocolate",
+    "description": "Chocolate Delight is a rich and indulgent chocolate cake with multiple layers of velvety chocolate ganache. This cake is perfect for chocolate lovers who crave a luxurious treat that melts in your mouth with every bite.", 
+    "price": 500, 
+    "img": "1.jpeg"
+  },
+  { 
+    "id": 2, 
+    "name": "Dark chocolate", 
+    "flavor": "Chocolate",
+    "description": "Dark chocolate is a classic dark chocolate cake that embodies simplicity and elegance. Topped with a smooth chocolate frosting, this cake is ideal for any celebration, offering a light and airy texture with a delicate flavor.", 
+    "price": 420, 
+    "img": "2.jpeg" 
+  },
+  { 
+    "id": 3, 
+    "name": "Chocolate Indulgence", 
+    "flavor": "Chocolate", 
+    "description": "Chocolate Indulgence is a decadent treat designed to satisfy the most intense chocolate cravings. This cake is covered in a rich, creamy ganache that adds a luxurious touch to every bite, making it a must-have for chocolate aficionados.", 
+    "price": 525, 
+    "img": "3.jpeg" 
+  },
+  { 
+    "id": 4, 
+    "name": "Vanilla Dream", 
+    "flavor": "Vanilla", 
+    "description": "Vanilla Dream Sensation offers a burst of citrusy freshness with every bite. This cake features a vanilla flavor that is perfectly balanced with a hint of sweetness, making it a refreshing choice for those who enjoy bright, vanilla desserts.", 
+    "price": 750, 
+    "img": "4.jpeg" 
+  },
+  { 
+    "id": 5, 
+    "name": "Kitkat Crunch", 
+    "flavor": "Chocolate", 
+    "description": "Kitkat Crunch brings together the earthy sweetness of kitkat with a rich chocolate base. This cake is a delightful blend of flavors and textures, offering a satisfying crunch that complements its decadent chocolatey goodness.", 
+    "price": 650, 
+    "img": "5.jpeg" 
+  },
+  { 
+    "id": 6, 
+    "name": "Cherry Bliss", 
+    "flavor": "Chocolate", 
+    "description": "Cherry Bliss is a harmonious fusion of juicy cherries and rich chocolate. This cake is a blissful treat for those who enjoy the combination of fresh fruit and chocolate, delivering a taste that is both sweet and indulgent.", 
+    "price": 450, 
+    "img": "6.jpeg" 
+  },
+  { 
+    "id": 7, 
+    "name": "Coconut Dream", 
+    "flavor": "Chocolate", 
+    "description": "Coconut Dream is a tropical escape in cake form. This dessert features the rich flavor of chocolate paired with the subtle sweetness of coconut, creating a dreamy, exotic taste experience that is both unique and delightful.", 
+    "price": 700, 
+    "img": "7.jpeg" 
+  },
+  { 
+    "id": 8, 
+    "name": "Strawberry Indulgence", 
+    "flavor": "Vanilla", 
+    "description": "Strawberry Indulgence is a cake for those who appreciate the rich, deep flavor of strawbeery combined with the sweetness of caramel and the richness of chocolate. This cake offers a layered experience of taste, making it perfect for sophisticated palates.", 
+    "price": 495, 
+    "img": "8.jpeg" 
+  },
+  { 
+    "id": 9, 
+    "name": "Vanilla Nut Delight", 
+    "flavor": "Vanilla", 
+    "description": "Vanilla Nut Delight is a wholesome and delicious cake that combines the natural sweetness  with the crunch of nuts . It's a delightful treat for those who love a blend of fruity and nutty flavors.", 
+    "price": 400, 
+    "img": "9.jpeg" 
+  },
+  { 
+    "id": 10, 
+    "name": "Raspberry White Chocolate", 
+    "flavor": "Chocolate", 
+    "description": "Raspberry White Chocolate is a sophisticated cake that pairs the tartness of raspberries with the creamy sweetness of white chocolate. This cake is a perfect choice for those who enjoy a refined and balanced dessert experience.", 
+    "price": 500, 
+    "img": "10.jpeg" 
+  },
+  { 
+    "id": 11, 
+    "name": "Pineapple Upside-Down", 
+    "flavor": "Chocolate", 
+    "description": "Pineapple Upside-Down is a delightful twist on the classic dessert, featuring the tropical sweetness of pineapple paired with rich chocolate. This cake is a great choice for those who enjoy a unique and flavorful dessert.", 
+    "price": 450, 
+    "img": "11.jpeg" 
+  },
+  { 
+    "id": 12, 
+    "name": "Fondent Delight", 
+    "flavor": "Chocolate", 
+    "description": "Fondent Delight is a luxurious cake that combines the smooth texture of fondent with the richness of chocolate. This cake is perfect for special occasions, offering a touch of elegance with every slice.Look Delicious.", 
+    "price": 500, 
+    "img": "12.jpeg" 
+  },
+  {
+    "id": 13,
+    "name": "Vanilla Dream",
+    "flavor": "Vanilla",
+    "description": "A classic vanilla cake, moist and fluffy, with a hint of lemon zest for a bright and refreshing taste.",
+    "price": 500,
+    "img": "13.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Chocolate Ganache Cake",
+    "flavor": "Chocolate",
+    "description": "A rich chocolate cake layered with smooth, creamy chocolate ganache, perfect for chocolate lovers.",
+    "price": 700,
+    "img": "14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Strawberry Shortcake",
+    "flavor": "Vanilla",
+    "description": "A light and airy vanilla cake layered with fresh strawberries and whipped cream, a classic summer dessert.",
+    "price": 650,
+    "img": "15.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Carrot Cake",
+    "flavor": "Spice",
+    "description": "A moist and flavorful carrot cake with walnuts and cream cheese frosting, a comforting treat.",
+    "price": 400,
+    "img": "16.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Lemon Blueberry Cake",
+    "flavor": "Lemon",
+    "description": "A tangy lemon cake with fresh blueberries and a lemon glaze, a refreshing and light dessert.",
+    "price": 450,
+    "img": "17.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Tiramisu Cake",
+    "flavor": "Coffee",
+    "description": "A classic Italian dessert, a coffee-flavored sponge cake layered with mascarpone cheese and cocoa powder.",
+    "price": 570,
+    "img": "18.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Almond Cake",
+    "flavor": "Almond",
+    "description": "A delicate almond-flavored cake with a hint of vanilla, perfect for a light and elegant dessert.",
+    "price": 440,
+    "img": "19.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Black Forest Cake",
+    "flavor": "Chocolate",
+    "description": "A rich chocolate cake layered with cherries, whipped cream, and chocolate shavings, a classic German dessert.",
+    "price": 500,
+    "img": "20.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Red Velvet Cheesecake",
+    "flavor": "Red Velvet",
+    "description": "A creamy cheesecake with a red velvet cake crust, a decadent and indulgent dessert.",
+    "price": 550,
+    "img": "21.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Tropical Fruit Cake",
+    "flavor": "Fruit",
+    "description": "A light and refreshing cake with a tropical fruit flavor, perfect for summer celebrations.You can enjoy it anytime",
+    "price": 350,
+    "img": "22.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Salted Caramel Cake",
+    "flavor": "Caramel",
+    "description": "A sweet and salty cake with a caramel frosting, a decadent and indulgent treat.perfect for summer celebrations",
+    "price": 590,
+    "img": "23.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Chocolate Peanut Butter Cake",
+    "flavor": "Chocolate",
+    "description": "A rich chocolate cake with a peanut butter frosting, for chocolate lovers.",
+    "price": 934,
+    "img": "24.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Honey Cake",
+    "flavor": "Honey",
+    "description": "A moist and flavorful cake with a honey-spice flavor, a comforting and unique dessert.",
+    "price": 700,
+    "img": "25.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Lavender Cake",
+    "flavor": "Lavender",
+    "description": "A delicate lavender-flavored cake with a hint of vanilla, a unique and aromatic dessert. perfect for Rainy celebrations.",
+    "price": 400,
+    "img": "26.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Rum Cake",
+    "flavor": "Rum",
+    "description": "A moist and flavorful cake with a rum flavor, perfect for a special occasion. Enjoy anytime.",
+    "price": 300,
+    "img": "27.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Coffee Cake",
+    "flavor": "Coffee",
+    "description": "A moist and flavorful cake with a coffee flavor, often topped with streusel, perfect for a morning treat.",
+    "price": 625,
+    "img": "28.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Pumpkin Spice Cake",
+    "flavor": "Spice",
+    "description": "A moist and flavorful cake with a pumpkin spice flavor, perfect for fall celebrations.",
+    "price": 500,
+    "img": "29.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Oreo Cheesecake",
+    "flavor": "Chocolate",
+    "description": "A creamy cheesecake with an Oreo cookie crust, a decadent and indulgent dessert.",
+    "price": 750,
+    "img": "30.jpg"
+  }
+
+]

@@ -1,0 +1,233 @@
+/* Base Styles */
+.open-modal-button {
+  background-color: #f8b500;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0px 30px 0px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.open-modal-button:hover {
+  background-color: #bb377d; 
+  transform: translateY(-3px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  color: #000;
+  padding: 20px; 
+  border-radius: 15px; 
+  width: 60%; 
+  height: 80%; 
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  overflow: hidden; 
+}
+
+/* Close Button */
+.close-button {
+  position: absolute;
+  background: none;
+  color: #000;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 80px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease;
+}
+
+.close-button:hover {
+  color: #f8b500;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px; /* Increased gap for better spacing */
+  padding: 20px; /* Added padding to enhance the layout */
+  height: 100%;
+  overflow-y: auto; /* Allows scrolling if content overflows */
+}
+
+.contact-section h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem; /* Increased font size for better readability */
+  color: #f8b500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  width: 100%;
+  flex-grow: 1;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Increased gap for better spacing */
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.95rem; /* Slightly increased font size for better readability */
+  color: #000;
+}
+
+input, textarea {
+  padding: 10px; /* Increased padding for better user interaction */
+  font-family: 'Lato', sans-serif;
+  font-size: 0.9rem; /* Slightly increased font size */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aaa;
+}
+
+textarea {
+  resize: none; 
+  height: 150px; 
+}
+
+.stylish-button {
+  background: #f8b500;
+  color: #fff;
+  border: none;
+  padding: 10px 20px; /* Adjusted padding for better touch interaction */
+  font-family: 'Lato', sans-serif;
+  font-size: 0.9rem; /* Slightly increased font size */
+  border-radius: 0px 30px 0px 30px;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  align-self: center;
+}
+
+.stylish-button:hover {
+  background-color: #bb377d; 
+  transform: translateY(-3px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .modal-content {
+    width: 70%;
+    height: 70%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .modal-content {
+    width: 75%;
+    height: 70%;
+    padding: 15px;
+  }
+  
+  .contact-section h2 {
+    font-size: 1.3rem; /* Reduced font size for smaller screens */
+  }
+
+  .stylish-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    width: 80%;
+    height: 70%;
+    padding: 15px;
+  }
+  
+  textarea {
+    height: 130px; 
+  }
+
+  .contact-section h2 {
+    font-size: 1.1rem; /* Reduced font size for better balance */
+  }
+
+  .stylish-button {
+    padding: 8px 15px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .modal-content {
+    width: 90%;
+    height: 65%;
+    padding: 10px;
+  }
+
+  textarea {
+    height: 120px; /* Adjusted height for smaller screens */
+  }
+
+  .contact-section h2 {
+    font-size: 1rem; /* Further reduced font size for small screens */
+  }
+
+  .stylish-button {
+    padding: 7px 12px;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-content {
+    width: 95%;
+    height: 65%;
+    padding: 8px;
+  }
+
+  textarea {
+    height: 110px; /* Adjusted height for very small screens */
+  }
+
+  .contact-section h2 {
+    font-size: 0.9rem; /* Adjusted font size */
+  }
+
+  .stylish-button {
+    padding: 6px 10px;
+    font-size: 0.7rem;
+  }
+}

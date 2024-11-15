@@ -1,0 +1,45 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+/* Ensure the entire page height is taken up */
+html, body {
+  height: 100%;
+}
+
+/* Main container setup */
+.App {
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content area takes up the remaining space */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Light theme styles */
+.App.light {
+  background-color: white;
+  color: black;
+}
+
+/* Dark theme styles */
+.App.dark {
+  background-color: black;
+  color: white;
+}
+
+/* Footer setup */
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+}
